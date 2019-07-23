@@ -1,0 +1,28 @@
+{
+  "name": "graphql-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon server/app.js"
+  },
+  "author": "“Dmitry” <“phdeadit@gmail.com”>",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-graphql": "^0.9.0",
+    "graphql": "^14.4.2",
+    "mongoose": "^5.6.5",
+    "nodemon": "^1.19.1"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.0.2",
+    "eslint": "^6.0.1",
+    "eslint-config-airbnb-base": "^13.2.0",
+    "eslint-plugin-babel": "^5.3.0",
+    "eslint-plugin-import": "^2.18.1",
+    "eslint-plugin-jest": "^22.11.1",
+    "eslint-plugin-lodash-fp": "^2.2.0-a1"
+  }
+}
